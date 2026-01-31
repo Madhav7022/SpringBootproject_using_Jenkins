@@ -19,7 +19,7 @@ pipeline {
         )
         string(
             name: 'DOCKERHUB_USERNAME',
-            defaultValue: 'uma777',
+            defaultValue: 'Madhav7022',
             description: 'DockerHub username'
         )
     }
@@ -35,7 +35,7 @@ pipeline {
             when { expression { params.ACTION == 'build' } }
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/umachandrashekhar3939/SpringBootproject_using_Jenkins.git',
+                    url: 'https://github.com/Madhav7022/SpringBootproject_using_Jenkins.git',
                     credentialsId: 'github-creds'
             }
         }
