@@ -9,7 +9,7 @@ pipeline {
         )
         string(
             name: 'IMAGE_NAME',
-            defaultValue: 'Madhav7022',
+            defaultValue: 'spring_project2003',
             description: 'Docker image name'
         )
         string(
